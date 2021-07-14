@@ -1,0 +1,25 @@
+vhdl xpm  \
+"/home/daphnelme/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_VCOMP.vhd" \
+
+vhdl xbip_utils_v3_0_10  \
+"../../../ipstatic/hdl/xbip_utils_v3_0_vh_rfs.vhd" \
+
+vhdl xbip_pipe_v3_0_6  \
+"../../../ipstatic/hdl/xbip_pipe_v3_0_vh_rfs.vhd" \
+
+vhdl xbip_bram18k_v3_0_6  \
+"../../../ipstatic/hdl/xbip_bram18k_v3_0_vh_rfs.vhd" \
+
+vhdl mult_gen_v12_0_16  \
+"../../../ipstatic/hdl/mult_gen_v12_0_vh_rfs.vhd" \
+
+vhdl axi_lite_ipif_v3_0_4  \
+"../../../ipstatic/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd" \
+
+vhdl tri_mode_ethernet_mac_v9_0_16  \
+"../../../ipstatic/hdl/tri_mode_ethernet_mac_v9_0_rfs.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0_axi4_lite_ipif_top.vhd" \
+
+nosort

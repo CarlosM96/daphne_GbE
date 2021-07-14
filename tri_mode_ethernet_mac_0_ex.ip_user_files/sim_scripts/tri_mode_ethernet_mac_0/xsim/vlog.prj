@@ -1,0 +1,15 @@
+sv xpm  \
+"/home/daphnelme/Xilinx/Vivado/2020.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv" \
+
+verilog tri_mode_ethernet_mac_v9_0_16  \
+"../../../ipstatic/hdl/tri_mode_ethernet_mac_v9_0_rfs.v" \
+
+verilog xil_defaultlib  \
+"../../../ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0_axi4_lite_ipif_wrapper.v" \
+"../../../ip/tri_mode_ethernet_mac_0/synth/statistics/tri_mode_ethernet_mac_0_vector_decode.v" \
+"../../../ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0_block.v" \
+"../../../ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

@@ -1,0 +1,113 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.ip_user_files/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0_axi4_lite_ipif_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_0_axi4_lite_ipif_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.ip_user_files/ip/tri_mode_ethernet_mac_0/synth/statistics/tri_mode_ethernet_mac_0_vector_decode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_0_vector_decode
+INFO: [VRFC 10-2458] undeclared symbol multiple_attempt, assumed default net type wire [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.ip_user_files/ip/tri_mode_ethernet_mac_0/synth/statistics/tri_mode_ethernet_mac_0_vector_decode.v:575]
+INFO: [VRFC 10-2458] undeclared symbol single_attempt, assumed default net type wire [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.ip_user_files/ip/tri_mode_ethernet_mac_0/synth/statistics/tri_mode_ethernet_mac_0_vector_decode.v:581]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.ip_user_files/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_0_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.ip_user_files/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.ip_user_files/ip/gig_ethernet_pcs_pma_0/synth/gig_ethernet_pcs_pma_0_resets.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gig_ethernet_pcs_pma_0_resets
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.ip_user_files/ip/gig_ethernet_pcs_pma_0/synth/gig_ethernet_pcs_pma_0_clocking.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gig_ethernet_pcs_pma_0_clocking
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.ip_user_files/ip/gig_ethernet_pcs_pma_0/synth/gig_ethernet_pcs_pma_0_support.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gig_ethernet_pcs_pma_0_support
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.ip_user_files/ip/gig_ethernet_pcs_pma_0/synth/gig_ethernet_pcs_pma_0_gt_common.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gig_ethernet_pcs_pma_0_gt_common
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.ip_user_files/ip/gig_ethernet_pcs_pma_0/synth/gig_ethernet_pcs_pma_0_common_reset.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gig_ethernet_pcs_pma_0_common_reset
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.ip_user_files/ip/gig_ethernet_pcs_pma_0/synth/transceiver/gig_ethernet_pcs_pma_0_gtwizard_gtrxreset_seq.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gig_ethernet_pcs_pma_0_gtwizard_gtrxreset_seq
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.ip_user_files/ip/gig_ethernet_pcs_pma_0/synth/transceiver/gig_ethernet_pcs_pma_0_gtwizard_gtrxpmarst_seq.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gig_ethernet_pcs_pma_0_gtwizard_rxpmarst_seq
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.ip_user_files/ip/gig_ethernet_pcs_pma_0/synth/transceiver/gig_ethernet_pcs_pma_0_gtwizard_init.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gig_ethernet_pcs_pma_0_GTWIZARD_init
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.ip_user_files/ip/gig_ethernet_pcs_pma_0/synth/transceiver/gig_ethernet_pcs_pma_0_tx_startup_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gig_ethernet_pcs_pma_0_TX_STARTUP_FSM
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.ip_user_files/ip/gig_ethernet_pcs_pma_0/synth/transceiver/gig_ethernet_pcs_pma_0_rx_startup_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gig_ethernet_pcs_pma_0_RX_STARTUP_FSM
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.ip_user_files/ip/gig_ethernet_pcs_pma_0/synth/transceiver/gig_ethernet_pcs_pma_0_reset_wtd_timer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gig_ethernet_pcs_pma_0_reset_wtd_timer
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.ip_user_files/ip/gig_ethernet_pcs_pma_0/synth/sgmii_adapt/gig_ethernet_pcs_pma_0_clk_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gig_ethernet_pcs_pma_0_clk_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.ip_user_files/ip/gig_ethernet_pcs_pma_0/synth/transceiver/gig_ethernet_pcs_pma_0_gtwizard_gt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gig_ethernet_pcs_pma_0_GTWIZARD_GT
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.ip_user_files/ip/gig_ethernet_pcs_pma_0/synth/transceiver/gig_ethernet_pcs_pma_0_gtwizard.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gig_ethernet_pcs_pma_0_GTWIZARD
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.ip_user_files/ip/gig_ethernet_pcs_pma_0/synth/transceiver/gig_ethernet_pcs_pma_0_GTWIZARD_multi_gt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gig_ethernet_pcs_pma_0_GTWIZARD_multi_gt
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.ip_user_files/ip/gig_ethernet_pcs_pma_0/synth/sgmii_adapt/gig_ethernet_pcs_pma_0_johnson_cntr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gig_ethernet_pcs_pma_0_johnson_cntr
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.ip_user_files/ip/gig_ethernet_pcs_pma_0/synth/gig_ethernet_pcs_pma_0_reset_sync.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gig_ethernet_pcs_pma_0_reset_sync
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.ip_user_files/ip/gig_ethernet_pcs_pma_0/synth/transceiver/gig_ethernet_pcs_pma_0_rx_elastic_buffer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gig_ethernet_pcs_pma_0_rx_elastic_buffer
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.ip_user_files/ip/gig_ethernet_pcs_pma_0/synth/sgmii_adapt/gig_ethernet_pcs_pma_0_rx_rate_adapt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gig_ethernet_pcs_pma_0_rx_rate_adapt
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.ip_user_files/ip/gig_ethernet_pcs_pma_0/synth/sgmii_adapt/gig_ethernet_pcs_pma_0_sgmii_adapt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gig_ethernet_pcs_pma_0_sgmii_adapt
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.ip_user_files/ip/gig_ethernet_pcs_pma_0/synth/gig_ethernet_pcs_pma_0_sync_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gig_ethernet_pcs_pma_0_sync_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.ip_user_files/ip/gig_ethernet_pcs_pma_0/synth/transceiver/gig_ethernet_pcs_pma_0_transceiver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gig_ethernet_pcs_pma_0_transceiver
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.ip_user_files/ip/gig_ethernet_pcs_pma_0/synth/sgmii_adapt/gig_ethernet_pcs_pma_0_tx_rate_adapt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gig_ethernet_pcs_pma_0_tx_rate_adapt
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.ip_user_files/ip/gig_ethernet_pcs_pma_0/synth/gig_ethernet_pcs_pma_0_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gig_ethernet_pcs_pma_0_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.ip_user_files/ip/gig_ethernet_pcs_pma_0/synth/gig_ethernet_pcs_pma_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gig_ethernet_pcs_pma_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.ip_user_files/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.ip_user_files/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_address_swap.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_0_address_swap
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_axi_lite_sm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_0_axi_lite_sm
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_axi_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_0_axi_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_axi_pat_check.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_0_axi_pat_check
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_axi_pat_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_0_axi_pat_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_axi_pipe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_0_axi_pipe
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_basic_pat_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_0_basic_pat_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_bram_tdp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_0_bram_tdp
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_example_design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_0_example_design
+INFO: [VRFC 10-2458] undeclared symbol resetdone, assumed default net type wire [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_example_design.v:418]
+INFO: [VRFC 10-2458] undeclared symbol pma_reset_out, assumed default net type wire [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_example_design.v:424]
+INFO: [VRFC 10-2458] undeclared symbol mmcm_locked_out, assumed default net type wire [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_example_design.v:425]
+INFO: [VRFC 10-2458] undeclared symbol gmii_isolate, assumed default net type wire [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_example_design.v:432]
+INFO: [VRFC 10-2458] undeclared symbol speedis100, assumed default net type wire [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_example_design.v:681]
+INFO: [VRFC 10-2458] undeclared symbol speedis10100, assumed default net type wire [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_example_design.v:682]
+INFO: [VRFC 10-2458] undeclared symbol clk200_w, assumed default net type wire [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_example_design.v:772]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_example_design_resets.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_0_example_design_resets
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_fifo_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_0_fifo_block
+INFO: [VRFC 10-2458] undeclared symbol rx_mac_reset, assumed default net type wire [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_fifo_block.v:296]
+INFO: [VRFC 10-2458] undeclared symbol tx_mac_reset, assumed default net type wire [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_fifo_block.v:303]
+INFO: [VRFC 10-2458] undeclared symbol tx_mac_resetn, assumed default net type wire [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_fifo_block.v:307]
+INFO: [VRFC 10-2458] undeclared symbol rx_mac_resetn, assumed default net type wire [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_fifo_block.v:308]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_frame_typ.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_0_frame_typ
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_reset_sync.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_0_reset_sync
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_rx_client_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_0_rx_client_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_support.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_0_support
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_sync_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_0_sync_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_ten_100_1g_eth_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_0_ten_100_1g_eth_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_tx_client_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tri_mode_ethernet_mac_0_tx_client_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/demo_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module demo_tb

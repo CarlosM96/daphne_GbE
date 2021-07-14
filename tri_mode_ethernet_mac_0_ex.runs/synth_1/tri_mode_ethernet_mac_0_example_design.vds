@@ -1,0 +1,778 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Jul 14 13:19:50 2021
+# Process ID: 13382
+# Current directory: /home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.runs/synth_1
+# Command line: vivado -log tri_mode_ethernet_mac_0_example_design.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source tri_mode_ethernet_mac_0_example_design.tcl
+# Log file: /home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.runs/synth_1/tri_mode_ethernet_mac_0_example_design.vds
+# Journal file: /home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source tri_mode_ethernet_mac_0_example_design.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:24 . Memory (MB): peak = 2319.910 ; gain = 430.605 ; free physical = 724 ; free virtual = 6212
+Command: synth_design -top tri_mode_ethernet_mac_0_example_design -part xc7a200tfbg676-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Device 21-403] Loading part xc7a200tfbg676-2
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 13695
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:14 . Memory (MB): peak = 2335.934 ; gain = 0.000 ; free physical = 115 ; free virtual = 5614
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'tri_mode_ethernet_mac_0_example_design' [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_example_design.v:133]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.runs/synth_1/.Xil/Vivado-13382-daphne.linktest.lme/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.runs/synth_1/.Xil/Vivado-13382-daphne.linktest.lme/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'OBUFDS' [/home/daphnelme/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:46328]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'OBUFDS' (2#1) [/home/daphnelme/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:46328]
+INFO: [Synth 8-6157] synthesizing module 'gig_ethernet_pcs_pma_0' [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.runs/synth_1/.Xil/Vivado-13382-daphne.linktest.lme/realtime/gig_ethernet_pcs_pma_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'gig_ethernet_pcs_pma_0' (3#1) [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.runs/synth_1/.Xil/Vivado-13382-daphne.linktest.lme/realtime/gig_ethernet_pcs_pma_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'sgmii_clk_r' of module 'gig_ethernet_pcs_pma_0' is unconnected for instance 'pcs_pma' [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_example_design.v:409]
+WARNING: [Synth 8-7071] port 'sgmii_clk_f' of module 'gig_ethernet_pcs_pma_0' is unconnected for instance 'pcs_pma' [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_example_design.v:409]
+WARNING: [Synth 8-7071] port 'sgmii_clk_en' of module 'gig_ethernet_pcs_pma_0' is unconnected for instance 'pcs_pma' [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_example_design.v:409]
+WARNING: [Synth 8-7023] instance 'pcs_pma' of module 'gig_ethernet_pcs_pma_0' has 38 connections declared, but only 35 given [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_example_design.v:409]
+INFO: [Synth 8-6157] synthesizing module 'tri_mode_ethernet_mac_0_example_design_resets' [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_example_design_resets.v:54]
+INFO: [Synth 8-6157] synthesizing module 'tri_mode_ethernet_mac_0_reset_sync' [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_reset_sync.v:66]
+	Parameter INITIALISE bound to: 1'b1 
+	Parameter DEPTH bound to: 5 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'FDPE' [/home/daphnelme/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13664]
+	Parameter INIT bound to: 1'b1 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_PRE_INVERTED bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'FDPE' (4#1) [/home/daphnelme/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13664]
+INFO: [Synth 8-6155] done synthesizing module 'tri_mode_ethernet_mac_0_reset_sync' (5#1) [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_reset_sync.v:66]
+INFO: [Synth 8-6155] done synthesizing module 'tri_mode_ethernet_mac_0_example_design_resets' (6#1) [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_example_design_resets.v:54]
+INFO: [Synth 8-6157] synthesizing module 'tri_mode_ethernet_mac_0_sync_block' [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_sync_block.v:63]
+	Parameter INITIALISE bound to: 1'b0 
+	Parameter DEPTH bound to: 5 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'FDRE' [/home/daphnelme/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13724]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'FDRE' (7#1) [/home/daphnelme/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13724]
+INFO: [Synth 8-6155] done synthesizing module 'tri_mode_ethernet_mac_0_sync_block' (8#1) [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_sync_block.v:63]
+INFO: [Synth 8-6157] synthesizing module 'tri_mode_ethernet_mac_0_axi_lite_sm' [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_axi_lite_sm.v:64]
+	Parameter STARTUP bound to: 0 - type: integer 
+	Parameter UPDATE_SPEED bound to: 1 - type: integer 
+	Parameter RESET_MAC_TX bound to: 16 - type: integer 
+	Parameter RESET_MAC_RX bound to: 17 - type: integer 
+	Parameter CNFG_MDIO bound to: 18 - type: integer 
+	Parameter CNFG_FLOW bound to: 19 - type: integer 
+	Parameter CNFG_FILTER bound to: 22 - type: integer 
+	Parameter CNFG_LO_ADDR bound to: 20 - type: integer 
+	Parameter CNFG_HI_ADDR bound to: 21 - type: integer 
+	Parameter CHECK_SPEED bound to: 25 - type: integer 
+	Parameter IDLE bound to: 0 - type: integer 
+	Parameter READ bound to: 1 - type: integer 
+	Parameter WRITE bound to: 2 - type: integer 
+	Parameter DONE bound to: 3 - type: integer 
+	Parameter CONFIG_FLOW_CTRL_ADD bound to: 17'b00000010000001100 
+	Parameter RECEIVER_ADD bound to: 17'b00000010000000100 
+	Parameter TRANSMITTER_ADD bound to: 17'b00000010000001000 
+	Parameter SPEED_CONFIG_ADD bound to: 17'b00000010000010000 
+	Parameter CONFIG_UNI0_CTRL_ADD bound to: 17'b00000011100000000 
+	Parameter CONFIG_UNI1_CTRL_ADD bound to: 17'b00000011100000100 
+	Parameter CONFIG_ADDR_CTRL_ADD bound to: 17'b00000011100001000 
+INFO: [Synth 8-251] ** Note: Programming MAC speed [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_axi_lite_sm.v:217]
+INFO: [Synth 8-251] ** Note: Reseting MAC RX [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_axi_lite_sm.v:232]
+INFO: [Synth 8-251] ** Note: Reseting MAC TX [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_axi_lite_sm.v:243]
+INFO: [Synth 8-251] ** Note: Disabling Flow control.... [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_axi_lite_sm.v:253]
+INFO: [Synth 8-251] ** Note: Configuring unicast address(low word).... [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_axi_lite_sm.v:261]
+INFO: [Synth 8-251] ** Note: Configuring unicast address(high word).... [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_axi_lite_sm.v:269]
+INFO: [Synth 8-251] ** Note: Setting core to promiscuous mode.... [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_axi_lite_sm.v:277]
+INFO: [Synth 8-6155] done synthesizing module 'tri_mode_ethernet_mac_0_axi_lite_sm' (9#1) [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_axi_lite_sm.v:64]
+INFO: [Synth 8-6157] synthesizing module 'tri_mode_ethernet_mac_0_fifo_block' [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_fifo_block.v:89]
+INFO: [Synth 8-6157] synthesizing module 'tri_mode_ethernet_mac_0_support' [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_support.v:66]
+INFO: [Synth 8-6157] synthesizing module 'tri_mode_ethernet_mac_0' [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.runs/synth_1/.Xil/Vivado-13382-daphne.linktest.lme/realtime/tri_mode_ethernet_mac_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'tri_mode_ethernet_mac_0' (10#1) [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.runs/synth_1/.Xil/Vivado-13382-daphne.linktest.lme/realtime/tri_mode_ethernet_mac_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'tri_mode_ethernet_mac_0_support' (11#1) [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_support.v:66]
+INFO: [Synth 8-6157] synthesizing module 'tri_mode_ethernet_mac_0_ten_100_1g_eth_fifo' [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_ten_100_1g_eth_fifo.v:71]
+	Parameter FULL_DUPLEX_ONLY bound to: 1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'tri_mode_ethernet_mac_0_tx_client_fifo' [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_tx_client_fifo.v:100]
+	Parameter FULL_DUPLEX_ONLY bound to: 1 - type: integer 
+	Parameter IDLE_s bound to: 4'b0000 
+	Parameter QUEUE1_s bound to: 4'b0001 
+	Parameter QUEUE2_s bound to: 4'b0010 
+	Parameter QUEUE3_s bound to: 4'b0011 
+	Parameter START_DATA1_s bound to: 4'b0100 
+	Parameter DATA_PRELOAD1_s bound to: 4'b0101 
+	Parameter DATA_PRELOAD2_s bound to: 4'b0110 
+	Parameter WAIT_HANDSHAKE_s bound to: 4'b0111 
+	Parameter FRAME_s bound to: 4'b1000 
+	Parameter HANDSHAKE_s bound to: 4'b1001 
+	Parameter FINISH_s bound to: 4'b1010 
+	Parameter DROP_ERR_s bound to: 4'b1011 
+	Parameter DROP_s bound to: 4'b1100 
+	Parameter RETRANSMIT_ERR_s bound to: 4'b1101 
+	Parameter RETRANSMIT_WAIT_s bound to: 4'b1110 
+	Parameter RETRANSMIT_s bound to: 4'b1111 
+	Parameter WAIT_s bound to: 2'b00 
+	Parameter DATA_s bound to: 2'b01 
+	Parameter EOF_s bound to: 2'b10 
+	Parameter OVFLOW_s bound to: 2'b11 
+INFO: [Synth 8-226] default block is never used [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_tx_client_fifo.v:324]
+INFO: [Synth 8-6157] synthesizing module 'tri_mode_ethernet_mac_0_bram_tdp' [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_bram_tdp.v:66]
+	Parameter DATA_WIDTH bound to: 9 - type: integer 
+	Parameter ADDR_WIDTH bound to: 12 - type: integer 
+	Parameter RAM_DEPTH bound to: 4096 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'tri_mode_ethernet_mac_0_bram_tdp' (12#1) [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_bram_tdp.v:66]
+INFO: [Synth 8-6155] done synthesizing module 'tri_mode_ethernet_mac_0_tx_client_fifo' (13#1) [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_tx_client_fifo.v:100]
+INFO: [Synth 8-6157] synthesizing module 'tri_mode_ethernet_mac_0_rx_client_fifo' [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_rx_client_fifo.v:111]
+	Parameter WAIT_s bound to: 3'b000 
+	Parameter QUEUE1_s bound to: 3'b001 
+	Parameter QUEUE2_s bound to: 3'b010 
+	Parameter QUEUE3_s bound to: 3'b011 
+	Parameter QUEUE_SOF_s bound to: 3'b100 
+	Parameter SOF_s bound to: 3'b101 
+	Parameter DATA_s bound to: 3'b110 
+	Parameter EOF_s bound to: 3'b111 
+	Parameter IDLE_s bound to: 3'b000 
+	Parameter FRAME_s bound to: 3'b001 
+	Parameter GF_s bound to: 3'b010 
+	Parameter BF_s bound to: 3'b011 
+	Parameter OVFLOW_s bound to: 3'b100 
+INFO: [Synth 8-226] default block is never used [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_rx_client_fifo.v:255]
+INFO: [Synth 8-6155] done synthesizing module 'tri_mode_ethernet_mac_0_rx_client_fifo' (14#1) [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_rx_client_fifo.v:111]
+INFO: [Synth 8-6155] done synthesizing module 'tri_mode_ethernet_mac_0_ten_100_1g_eth_fifo' (15#1) [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_ten_100_1g_eth_fifo.v:71]
+INFO: [Synth 8-6155] done synthesizing module 'tri_mode_ethernet_mac_0_fifo_block' (16#1) [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_fifo_block.v:89]
+INFO: [Synth 8-6157] synthesizing module 'tri_mode_ethernet_mac_0_basic_pat_gen' [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_basic_pat_gen.v:67]
+	Parameter DEST_ADDR bound to: 48'b110110100000000100000010000000110000010000000101 
+	Parameter SRC_ADDR bound to: 48'b010110100000000100000010000000110000010000000101 
+	Parameter MAX_SIZE bound to: 16'b0000000111110100 
+	Parameter MIN_SIZE bound to: 16'b0000000001000000 
+	Parameter ENABLE_VLAN bound to: 1'b0 
+	Parameter VLAN_ID bound to: 12'b000000000010 
+	Parameter VLAN_PRIORITY bound to: 3'b010 
+INFO: [Synth 8-6157] synthesizing module 'tri_mode_ethernet_mac_0_axi_pat_gen' [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_axi_pat_gen.v:66]
+	Parameter DEST_ADDR bound to: 48'b110110100000000100000010000000110000010000000101 
+	Parameter SRC_ADDR bound to: 48'b010110100000000100000010000000110000010000000101 
+	Parameter MAX_SIZE bound to: 16'b0000000111110100 
+	Parameter MIN_SIZE bound to: 16'b0000000001000000 
+	Parameter ENABLE_VLAN bound to: 1'b0 
+	Parameter VLAN_ID bound to: 12'b000000000010 
+	Parameter VLAN_PRIORITY bound to: 3'b010 
+	Parameter IDLE bound to: 3'b000 
+	Parameter HEADER bound to: 3'b001 
+	Parameter SIZE bound to: 3'b010 
+	Parameter DATA bound to: 3'b011 
+	Parameter OVERHEAD bound to: 3'b100 
+	Parameter PKT_ADJUST bound to: 18 - type: integer 
+	Parameter VLAN_HEADER bound to: -2130690046 - type: integer 
+	Parameter HEADER_LENGTH bound to: 11 - type: integer 
+	Parameter BW_1G bound to: 230 - type: integer 
+	Parameter BW_100M bound to: 23 - type: integer 
+	Parameter BW_10M bound to: 2 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'LUT6' [/home/daphnelme/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:39343]
+	Parameter INIT bound to: 64'b0000000000000000000000000000000000000000000000000001101010101010 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6' (17#1) [/home/daphnelme/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:39343]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized0' [/home/daphnelme/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:39343]
+	Parameter INIT bound to: 64'b0000000000000000000000000000000000000000000000001000001101001101 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized0' (17#1) [/home/daphnelme/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:39343]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized1' [/home/daphnelme/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:39343]
+	Parameter INIT bound to: 64'b0000000000000000000000000000000000000000000000000000110000110000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized1' (17#1) [/home/daphnelme/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:39343]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized2' [/home/daphnelme/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:39343]
+	Parameter INIT bound to: 64'b0000000000000000000000000000000000000000000000000000000001000001 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized2' (17#1) [/home/daphnelme/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:39343]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized3' [/home/daphnelme/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:39343]
+	Parameter INIT bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized3' (17#1) [/home/daphnelme/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:39343]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized4' [/home/daphnelme/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:39343]
+	Parameter INIT bound to: 64'b0000000000000000000000000000000000000000000000000100000001000001 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized4' (17#1) [/home/daphnelme/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:39343]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized5' [/home/daphnelme/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:39343]
+	Parameter INIT bound to: 64'b0000000000000000000000000000000000000000000000000001000000000001 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized5' (17#1) [/home/daphnelme/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:39343]
+WARNING: [Synth 8-567] referenced signal 'byte_count_eq_1' should be on the sensitivity list [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_axi_pat_gen.v:286]
+INFO: [Synth 8-6155] done synthesizing module 'tri_mode_ethernet_mac_0_axi_pat_gen' (18#1) [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_axi_pat_gen.v:66]
+INFO: [Synth 8-6157] synthesizing module 'tri_mode_ethernet_mac_0_axi_pat_check' [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_axi_pat_check.v:61]
+	Parameter DEST_ADDR bound to: 48'b110110100000000100000010000000110000010000000101 
+	Parameter SRC_ADDR bound to: 48'b010110100000000100000010000000110000010000000101 
+	Parameter MAX_SIZE bound to: 16'b0000000111110100 
+	Parameter MIN_SIZE bound to: 16'b0000000001000000 
+	Parameter ENABLE_VLAN bound to: 1'b0 
+	Parameter VLAN_ID bound to: 12'b000000000010 
+	Parameter VLAN_PRIORITY bound to: 3'b010 
+	Parameter IDLE bound to: 2'b00 
+	Parameter INFO bound to: 2'b01 
+	Parameter LOOK bound to: 2'b10 
+	Parameter PKT bound to: 2'b11 
+	Parameter PKT_ADJUST bound to: 18 - type: integer 
+	Parameter VLAN_HEADER bound to: -2130690046 - type: integer 
+	Parameter HEADER_LENGTH bound to: 11 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized6' [/home/daphnelme/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:39343]
+	Parameter INIT bound to: 64'b0000000000000000000000000000000000000000000000000001000001000000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized6' (18#1) [/home/daphnelme/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:39343]
+INFO: [Synth 8-251] Frame PASSED.  DA/SA swapped, Frame size = x [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_axi_pat_check.v:191]
+INFO: [Synth 8-251] Frame PASSED.  Frame size = x [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_axi_pat_check.v:193]
+INFO: [Synth 8-6155] done synthesizing module 'tri_mode_ethernet_mac_0_axi_pat_check' (19#1) [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_axi_pat_check.v:61]
+INFO: [Synth 8-6157] synthesizing module 'tri_mode_ethernet_mac_0_axi_mux' [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_axi_mux.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'tri_mode_ethernet_mac_0_axi_mux' (20#1) [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_axi_mux.v:57]
+INFO: [Synth 8-6157] synthesizing module 'tri_mode_ethernet_mac_0_axi_pipe' [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_axi_pipe.v:58]
+INFO: [Synth 8-6157] synthesizing module 'RAM64X1D' [/home/daphnelme/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:70602]
+	Parameter INIT bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'RAM64X1D' (21#1) [/home/daphnelme/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:70602]
+INFO: [Synth 8-6155] done synthesizing module 'tri_mode_ethernet_mac_0_axi_pipe' (22#1) [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_axi_pipe.v:58]
+INFO: [Synth 8-6157] synthesizing module 'tri_mode_ethernet_mac_0_address_swap' [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_address_swap.v:59]
+	Parameter IDLE bound to: 3'b000 
+	Parameter WAIT bound to: 3'b001 
+	Parameter READ_DEST bound to: 3'b010 
+	Parameter READ_SRC bound to: 3'b011 
+	Parameter READ_DEST2 bound to: 3'b100 
+	Parameter READ_SRC2 bound to: 3'b101 
+	Parameter READ bound to: 3'b110 
+	Parameter WRITE_SLOT1 bound to: 2'b01 
+	Parameter WRITE_SLOT2 bound to: 2'b10 
+	Parameter WRITE bound to: 2'b11 
+INFO: [Synth 8-226] default block is never used [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_address_swap.v:161]
+INFO: [Synth 8-6155] done synthesizing module 'tri_mode_ethernet_mac_0_address_swap' (23#1) [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_address_swap.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'tri_mode_ethernet_mac_0_basic_pat_gen' (24#1) [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_basic_pat_gen.v:67]
+INFO: [Synth 8-638] synthesizing module 'si5324_init' [/home/daphnelme/Documents/Pruebas_artix/sfp_test_1/sfp_test_1.srcs/sources_1/imports/si5324_init.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'si5324_init' (25#1) [/home/daphnelme/Documents/Pruebas_artix/sfp_test_1/sfp_test_1.srcs/sources_1/imports/si5324_init.vhd:32]
+INFO: [Synth 8-638] synthesizing module 'simple_i2c' [/home/daphnelme/Documents/Pruebas_artix/sfp_test_1/sfp_test_1.srcs/sources_1/imports/i2c.vhd:78]
+INFO: [Synth 8-3491] module 'i2c_core' declared at '/home/daphnelme/Documents/Pruebas_artix/sfp_test_1/sfp_test_1.srcs/sources_1/imports/i2c.vhd:339' bound to instance 'u1' of component 'i2c_core' [/home/daphnelme/Documents/Pruebas_artix/sfp_test_1/sfp_test_1.srcs/sources_1/imports/i2c.vhd:117]
+INFO: [Synth 8-638] synthesizing module 'i2c_core' [/home/daphnelme/Documents/Pruebas_artix/sfp_test_1/sfp_test_1.srcs/sources_1/imports/i2c.vhd:358]
+INFO: [Synth 8-256] done synthesizing module 'i2c_core' (26#1) [/home/daphnelme/Documents/Pruebas_artix/sfp_test_1/sfp_test_1.srcs/sources_1/imports/i2c.vhd:358]
+INFO: [Synth 8-256] done synthesizing module 'simple_i2c' (27#1) [/home/daphnelme/Documents/Pruebas_artix/sfp_test_1/sfp_test_1.srcs/sources_1/imports/i2c.vhd:78]
+INFO: [Synth 8-6155] done synthesizing module 'tri_mode_ethernet_mac_0_example_design' (28#1) [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_example_design.v:133]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:19 . Memory (MB): peak = 2335.934 ; gain = 0.000 ; free physical = 236 ; free virtual = 5612
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:20 . Memory (MB): peak = 2335.934 ; gain = 0.000 ; free physical = 206 ; free virtual = 5596
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:20 . Memory (MB): peak = 2335.934 ; gain = 0.000 ; free physical = 206 ; free virtual = 5596
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.24 . Memory (MB): peak = 2335.934 ; gain = 0.000 ; free physical = 164 ; free virtual = 5575
+INFO: [Netlist 29-17] Analyzing 19 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.runs/synth_1/.Xil/Vivado-13382-daphne.linktest.lme/tri_mode_ethernet_mac_0/tri_mode_ethernet_mac_0/tri_mode_ethernet_mac_0_in_context.xdc] for cell 'trimac_fifo_block/trimac_sup_block/tri_mode_ethernet_mac_i'
+WARNING: [Vivado 12-584] No ports matched ''. [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.runs/synth_1/.Xil/Vivado-13382-daphne.linktest.lme/tri_mode_ethernet_mac_0/tri_mode_ethernet_mac_0/tri_mode_ethernet_mac_0_in_context.xdc:2]
+Finished Parsing XDC File [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.runs/synth_1/.Xil/Vivado-13382-daphne.linktest.lme/tri_mode_ethernet_mac_0/tri_mode_ethernet_mac_0/tri_mode_ethernet_mac_0_in_context.xdc] for cell 'trimac_fifo_block/trimac_sup_block/tri_mode_ethernet_mac_i'
+Parsing XDC File [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.runs/synth_1/.Xil/Vivado-13382-daphne.linktest.lme/gig_ethernet_pcs_pma_0/gig_ethernet_pcs_pma_0/gig_ethernet_pcs_pma_0_in_context.xdc] for cell 'pcs_pma'
+WARNING: [Vivado 12-584] No ports matched ''. [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.runs/synth_1/.Xil/Vivado-13382-daphne.linktest.lme/gig_ethernet_pcs_pma_0/gig_ethernet_pcs_pma_0/gig_ethernet_pcs_pma_0_in_context.xdc:2]
+WARNING: [Vivado 12-584] No ports matched ''. [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.runs/synth_1/.Xil/Vivado-13382-daphne.linktest.lme/gig_ethernet_pcs_pma_0/gig_ethernet_pcs_pma_0/gig_ethernet_pcs_pma_0_in_context.xdc:4]
+WARNING: [Vivado 12-584] No ports matched ''. [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.runs/synth_1/.Xil/Vivado-13382-daphne.linktest.lme/gig_ethernet_pcs_pma_0/gig_ethernet_pcs_pma_0/gig_ethernet_pcs_pma_0_in_context.xdc:6]
+WARNING: [Vivado 12-584] No ports matched ''. [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.runs/synth_1/.Xil/Vivado-13382-daphne.linktest.lme/gig_ethernet_pcs_pma_0/gig_ethernet_pcs_pma_0/gig_ethernet_pcs_pma_0_in_context.xdc:8]
+Finished Parsing XDC File [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.runs/synth_1/.Xil/Vivado-13382-daphne.linktest.lme/gig_ethernet_pcs_pma_0/gig_ethernet_pcs_pma_0/gig_ethernet_pcs_pma_0_in_context.xdc] for cell 'pcs_pma'
+Parsing XDC File [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.runs/synth_1/.Xil/Vivado-13382-daphne.linktest.lme/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_wiz_0'
+WARNING: [Vivado 12-584] No ports matched ''. [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.runs/synth_1/.Xil/Vivado-13382-daphne.linktest.lme/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc:1]
+WARNING: [Vivado 12-584] No ports matched ''. [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.runs/synth_1/.Xil/Vivado-13382-daphne.linktest.lme/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc:4]
+WARNING: [Vivado 12-584] No ports matched ''. [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.runs/synth_1/.Xil/Vivado-13382-daphne.linktest.lme/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc:6]
+Finished Parsing XDC File [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.runs/synth_1/.Xil/Vivado-13382-daphne.linktest.lme/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_wiz_0'
+Parsing XDC File [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_example_design.xdc]
+WARNING: [Constraints 18-619] A clock with name 'USER_CLK_P' already exists, overwriting the previous clock with the same name. [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_example_design.xdc:32]
+Finished Parsing XDC File [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_example_design.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_example_design.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/tri_mode_ethernet_mac_0_example_design_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/tri_mode_ethernet_mac_0_example_design_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.runs/synth_1/dont_touch.xdc]
+Parsing XDC File [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_user_phytiming.xdc]
+Finished Parsing XDC File [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_user_phytiming.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2454.684 ; gain = 0.000 ; free physical = 120 ; free virtual = 5390
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 19 instances were transformed.
+  OBUFDS => OBUFDS: 1 instance 
+  RAM64X1D => RAM64X1D (RAMD64E(x2)): 18 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.10 . Memory (MB): peak = 2454.684 ; gain = 0.000 ; free physical = 119 ; free virtual = 5389
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:47 . Memory (MB): peak = 2454.684 ; gain = 118.750 ; free physical = 181 ; free virtual = 5403
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tfbg676-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:47 . Memory (MB): peak = 2454.684 ; gain = 118.750 ; free physical = 181 ; free virtual = 5403
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for USER_CLK_N. (constraint file  /home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.runs/synth_1/.Xil/Vivado-13382-daphne.linktest.lme/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 7).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for USER_CLK_N. (constraint file  /home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.runs/synth_1/.Xil/Vivado-13382-daphne.linktest.lme/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 8).
+Applied set_property IO_BUFFER_TYPE = NONE for USER_CLK_P. (constraint file  /home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.runs/synth_1/.Xil/Vivado-13382-daphne.linktest.lme/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 9).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for USER_CLK_P. (constraint file  /home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.runs/synth_1/.Xil/Vivado-13382-daphne.linktest.lme/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 10).
+Applied set_property DONT_TOUCH = true for trimac_fifo_block/trimac_sup_block/tri_mode_ethernet_mac_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for pcs_pma. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for clk_wiz_0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:47 . Memory (MB): peak = 2454.684 ; gain = 118.750 ; free physical = 179 ; free virtual = 5402
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'axi_state_reg' in module 'tri_mode_ethernet_mac_0_axi_lite_sm'
+INFO: [Synth 8-802] inferred FSM for state register 'wr_state_reg' in module 'tri_mode_ethernet_mac_0_tx_client_fifo'
+INFO: [Synth 8-802] inferred FSM for state register 'rd_state_reg' in module 'tri_mode_ethernet_mac_0_tx_client_fifo'
+INFO: [Synth 8-802] inferred FSM for state register 'rd_state_reg' in module 'tri_mode_ethernet_mac_0_rx_client_fifo'
+INFO: [Synth 8-802] inferred FSM for state register 'wr_state_reg' in module 'tri_mode_ethernet_mac_0_rx_client_fifo'
+INFO: [Synth 8-802] inferred FSM for state register 'gen_state_reg' in module 'tri_mode_ethernet_mac_0_axi_pat_gen'
+INFO: [Synth 8-802] inferred FSM for state register 'rx_state_reg' in module 'tri_mode_ethernet_mac_0_axi_pat_check'
+INFO: [Synth 8-802] inferred FSM for state register 'wr_state_reg' in module 'tri_mode_ethernet_mac_0_address_swap'
+INFO: [Synth 8-802] inferred FSM for state register 'i2c_wr_state_reg' in module 'si5324_init'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'i2c_core'
+INFO: [Synth 8-802] inferred FSM for state register 'statemachine.state_reg' in module 'simple_i2c'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 STARTUP |                             0000 |                            00000
+            UPDATE_SPEED |                             0001 |                            00001
+            RESET_MAC_RX |                             0010 |                            10001
+            RESET_MAC_TX |                             0011 |                            10000
+               CNFG_FLOW |                             0100 |                            10011
+            CNFG_LO_ADDR |                             0101 |                            10100
+            CNFG_HI_ADDR |                             0110 |                            10101
+             CNFG_FILTER |                             0111 |                            10110
+             CHECK_SPEED |                             1000 |                            11001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'axi_state_reg' using encoding 'sequential' in module 'tri_mode_ethernet_mac_0_axi_lite_sm'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  IDLE_s |                             0000 |                             0000
+                QUEUE1_s |                             0001 |                             0001
+                QUEUE2_s |                             0010 |                             0010
+                QUEUE3_s |                             0011 |                             0011
+           START_DATA1_s |                             0100 |                             0100
+         DATA_PRELOAD1_s |                             0101 |                             0101
+                 FRAME_s |                             0110 |                             1000
+             HANDSHAKE_s |                             0111 |                             1001
+                FINISH_s |                             1000 |                             1010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'rd_state_reg' using encoding 'sequential' in module 'tri_mode_ethernet_mac_0_tx_client_fifo'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  WAIT_s |                               01 |                               00
+                  DATA_s |                               11 |                               01
+                OVFLOW_s |                               00 |                               11
+                   EOF_s |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'wr_state_reg' using encoding 'sequential' in module 'tri_mode_ethernet_mac_0_tx_client_fifo'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  WAIT_s |                         00000001 |                              000
+                QUEUE1_s |                         00000010 |                              001
+                QUEUE2_s |                         00000100 |                              010
+                QUEUE3_s |                         00001000 |                              011
+             QUEUE_SOF_s |                         00010000 |                              100
+                  DATA_s |                         00100000 |                              110
+                   EOF_s |                         01000000 |                              111
+                   SOF_s |                         10000000 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'rd_state_reg' using encoding 'one-hot' in module 'tri_mode_ethernet_mac_0_rx_client_fifo'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  IDLE_s |                            00001 |                              000
+                 FRAME_s |                            00010 |                              001
+                OVFLOW_s |                            00100 |                              100
+                    GF_s |                            01000 |                              010
+                    BF_s |                            10000 |                              011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'wr_state_reg' using encoding 'one-hot' in module 'tri_mode_ethernet_mac_0_rx_client_fifo'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                              000 |                              000
+                  HEADER |                              100 |                              001
+                    SIZE |                              011 |                              010
+                    DATA |                              010 |                              011
+                OVERHEAD |                              001 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_state_reg' using encoding 'sequential' in module 'tri_mode_ethernet_mac_0_axi_pat_gen'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                               01 |                               00
+                    INFO |                               11 |                               01
+                    LOOK |                               10 |                               10
+                     PKT |                               00 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'rx_state_reg' using encoding 'sequential' in module 'tri_mode_ethernet_mac_0_axi_pat_check'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+              P_367AFBF0 |                               00 |                               00
+              P_3676AD20 |                               01 |                               01
+              P_367AFB90 |                               10 |                               10
+              P_367AFB30 |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'wr_state_reg' using encoding 'sequential' in module 'tri_mode_ethernet_mac_0_address_swap'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                             0000 |                             0000
+                     dly |                             0001 |                             0001
+                    addr |                             0010 |                             0010
+                 addrack |                             0011 |                             0011
+                 write1b |                             0100 |                             1000
+              write1back |                             0101 |                             1001
+                readaddr |                             0110 |                             1010
+             readaddrack |                             0111 |                             1011
+                write2b1 |                             1000 |                             0100
+             write2b1ack |                             1001 |                             0101
+                write2b2 |                             1010 |                             0110
+             write2b2ack |                             1011 |                             0111
+                readdata |                             1100 |                             1100
+             readdataack |                             1101 |                             1101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'i2c_wr_state_reg' using encoding 'sequential' in module 'si5324_init'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                             0000 |                             0000
+                 start_a |                             0001 |                             0001
+                 start_b |                             0010 |                             0010
+                 start_c |                             0011 |                             0011
+                 start_d |                             0100 |                             0100
+                  stop_a |                             0101 |                             0101
+                  stop_b |                             0110 |                             0110
+                  stop_c |                             0111 |                             0111
+                    wr_a |                             1000 |                             1100
+                    wr_b |                             1001 |                             1101
+                    wr_c |                             1010 |                             1110
+                    wr_d |                             1011 |                             1111
+                    rd_a |                             1100 |                             1000
+                    rd_b |                             1101 |                             1001
+                    rd_c |                             1110 |                             1010
+                    rd_d |                             1111 |                             1011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'i2c_core'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 st_idle |                              000 |                              000
+                st_start |                              001 |                              001
+                 st_read |                              010 |                              010
+                st_write |                              011 |                              011
+                  st_ack |                              100 |                              100
+                 st_stop |                              101 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'statemachine.state_reg' using encoding 'sequential' in module 'simple_i2c'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:50 . Memory (MB): peak = 2454.688 ; gain = 118.754 ; free physical = 143 ; free virtual = 5370
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   16 Bit       Adders := 1     
+	   2 Input   12 Bit       Adders := 3     
+	   3 Input   12 Bit       Adders := 2     
+	   2 Input    9 Bit       Adders := 2     
+	   2 Input    8 Bit       Adders := 3     
+	   2 Input    6 Bit       Adders := 3     
+	   2 Input    5 Bit       Adders := 2     
+	   2 Input    4 Bit       Adders := 5     
+	   2 Input    3 Bit       Adders := 5     
+	   3 Input    3 Bit       Adders := 1     
+	   2 Input    2 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 5     
++---Registers : 
+	               37 Bit    Registers := 1     
+	               32 Bit    Registers := 3     
+	               25 Bit    Registers := 1     
+	               21 Bit    Registers := 1     
+	               19 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	               16 Bit    Registers := 2     
+	               12 Bit    Registers := 11    
+	                9 Bit    Registers := 4     
+	                8 Bit    Registers := 21    
+	                6 Bit    Registers := 4     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 7     
+	                3 Bit    Registers := 7     
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 122   
++---RAMs : 
+	              36K Bit	(4096 X 9 bit)          RAMs := 2     
++---Muxes : 
+	   2 Input   37 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 1     
+	   9 Input   32 Bit        Muxes := 1     
+	   3 Input   25 Bit        Muxes := 1     
+	   2 Input   25 Bit        Muxes := 1     
+	   9 Input   17 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 4     
+	   2 Input   12 Bit        Muxes := 1     
+	   8 Input    8 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 13    
+	  14 Input    8 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 1     
+	   5 Input    5 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 8     
+	   9 Input    4 Bit        Muxes := 11    
+	   2 Input    4 Bit        Muxes := 28    
+	   3 Input    4 Bit        Muxes := 12    
+	  14 Input    4 Bit        Muxes := 1     
+	  16 Input    4 Bit        Muxes := 1     
+	   5 Input    4 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 23    
+	   3 Input    3 Bit        Muxes := 3     
+	   8 Input    3 Bit        Muxes := 4     
+	   5 Input    3 Bit        Muxes := 4     
+	   6 Input    3 Bit        Muxes := 3     
+	   5 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 36    
+	   4 Input    2 Bit        Muxes := 13    
+	   3 Input    2 Bit        Muxes := 5     
+	   2 Input    1 Bit        Muxes := 107   
+	   6 Input    1 Bit        Muxes := 9     
+	   9 Input    1 Bit        Muxes := 7     
+	   4 Input    1 Bit        Muxes := 1     
+	   8 Input    1 Bit        Muxes := 1     
+	   7 Input    1 Bit        Muxes := 2     
+	   3 Input    1 Bit        Muxes := 5     
+	   5 Input    1 Bit        Muxes := 4     
+	  14 Input    1 Bit        Muxes := 10    
+	  16 Input    1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:01:01 . Memory (MB): peak = 2454.688 ; gain = 118.754 ; free physical = 726 ; free virtual = 5636
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping	Report
++------------+----------------------+---------------+----------------+
+|Module Name | RTL Object           | Depth x Width | Implemented As | 
++------------+----------------------+---------------+----------------+
+|si5324_init | si5324_240_regs[0,0] | 64x8          | LUT            | 
+|si5324_init | si5324_240_regs[0,1] | 64x8          | LUT            | 
+|si5324_init | si5324_240_regs[0,0] | 64x8          | LUT            | 
+|si5324_init | si5324_240_regs[0,1] | 64x8          | LUT            | 
++------------+----------------------+---------------+----------------+
+
+
+Block RAM: Preliminary Mapping	Report (see note below)
++---------------------------------------+----------------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name                            | RTL Object                                                     | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++---------------------------------------+----------------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|tri_mode_ethernet_mac_0_example_design | trimac_fifo_block/user_side_FIFO/tx_fifo_i/tx_ramgen_i/mem_reg | 4 K x 9(NO_CHANGE)     | W |   | 4 K x 9(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
+|tri_mode_ethernet_mac_0_example_design | trimac_fifo_block/user_side_FIFO/rx_fifo_i/rx_ramgen_i/mem_reg | 4 K x 9(NO_CHANGE)     | W |   | 4 K x 9(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
++---------------------------------------+----------------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+Distributed RAM: Preliminary Mapping	Report (see note below)
+-------NONE-------
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-565] redefining clock 'USER_CLK_P'
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:37 ; elapsed = 00:01:14 . Memory (MB): peak = 2454.688 ; gain = 118.754 ; free physical = 547 ; free virtual = 5539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:37 ; elapsed = 00:01:14 . Memory (MB): peak = 2454.688 ; gain = 118.754 ; free physical = 544 ; free virtual = 5537
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping	Report
++---------------------------------------+----------------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name                            | RTL Object                                                     | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++---------------------------------------+----------------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|tri_mode_ethernet_mac_0_example_design | trimac_fifo_block/user_side_FIFO/tx_fifo_i/tx_ramgen_i/mem_reg | 4 K x 9(NO_CHANGE)     | W |   | 4 K x 9(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
+|tri_mode_ethernet_mac_0_example_design | trimac_fifo_block/user_side_FIFO/rx_fifo_i/rx_ramgen_i/mem_reg | 4 K x 9(NO_CHANGE)     | W |   | 4 K x 9(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
++---------------------------------------+----------------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+
+Distributed RAM: Final Mapping	Report
+-------NONE-------
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:38 ; elapsed = 00:01:15 . Memory (MB): peak = 2454.688 ; gain = 118.754 ; free physical = 540 ; free virtual = 5535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:42 ; elapsed = 00:01:19 . Memory (MB): peak = 2454.688 ; gain = 118.754 ; free physical = 530 ; free virtual = 5534
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:42 ; elapsed = 00:01:19 . Memory (MB): peak = 2454.688 ; gain = 118.754 ; free physical = 530 ; free virtual = 5534
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:42 ; elapsed = 00:01:19 . Memory (MB): peak = 2454.688 ; gain = 118.754 ; free physical = 530 ; free virtual = 5534
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:42 ; elapsed = 00:01:19 . Memory (MB): peak = 2454.688 ; gain = 118.754 ; free physical = 530 ; free virtual = 5534
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:42 ; elapsed = 00:01:19 . Memory (MB): peak = 2454.688 ; gain = 118.754 ; free physical = 530 ; free virtual = 5534
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:42 ; elapsed = 00:01:19 . Memory (MB): peak = 2454.688 ; gain = 118.754 ; free physical = 530 ; free virtual = 5534
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++---------------------------------------+----------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name                            | RTL Name                                                       | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++---------------------------------------+----------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|tri_mode_ethernet_mac_0_example_design | axi_lite_controller/count_shift_reg[20]                        | 21     | 1     | NO           | NO                 | YES               | 0      | 1       | 
+|tri_mode_ethernet_mac_0_example_design | trimac_fifo_block/user_side_FIFO/rx_fifo_i/wr_data_bram_reg[7] | 3      | 8     | NO           | NO                 | YES               | 8      | 0       | 
++---------------------------------------+----------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+------------------------+----------+
+|      |BlackBox name           |Instances |
++------+------------------------+----------+
+|1     |clk_wiz_0               |         1|
+|2     |gig_ethernet_pcs_pma_0  |         1|
+|3     |tri_mode_ethernet_mac_0 |         1|
++------+------------------------+----------+
+
+Report Cell Usage: 
++------+----------------------+------+
+|      |Cell                  |Count |
++------+----------------------+------+
+|1     |clk_wiz               |     1|
+|2     |gig_ethernet_pcs_pma  |     1|
+|3     |tri_mode_ethernet_mac |     1|
+|4     |CARRY4                |    38|
+|5     |LUT1                  |    35|
+|6     |LUT2                  |   103|
+|7     |LUT3                  |    85|
+|8     |LUT4                  |    95|
+|9     |LUT5                  |    58|
+|10    |LUT6                  |   107|
+|11    |RAM64X1D              |    18|
+|12    |RAMB36E1              |     2|
+|13    |SRL16E                |     8|
+|14    |SRLC32E               |     1|
+|15    |FDPE                  |    25|
+|16    |FDRE                  |   520|
+|17    |FDSE                  |    16|
+|18    |IBUF                  |     6|
+|19    |OBUF                  |     7|
+|20    |OBUFDS                |     1|
+|21    |OBUFT                 |     2|
++------+----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:42 ; elapsed = 00:01:19 . Memory (MB): peak = 2454.688 ; gain = 118.754 ; free physical = 530 ; free virtual = 5534
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:37 ; elapsed = 00:01:01 . Memory (MB): peak = 2454.688 ; gain = 0.004 ; free physical = 582 ; free virtual = 5587
+Synthesis Optimization Complete : Time (s): cpu = 00:00:42 ; elapsed = 00:01:19 . Memory (MB): peak = 2454.688 ; gain = 118.754 ; free physical = 582 ; free virtual = 5587
+INFO: [Project 1-571] Translating synthesized netlist
+WARNING: [Synth 37-28] Duplicate attribute 'INIT' found for instance 'rd_store_frame_delay_reg' of module 'FDRE'.
+Resolution: Check your design sources near the definition of the module or any related 'include files, looking for duplicate definitions with different values.
+WARNING: [Synth 37-28] Duplicate attribute 'INIT' found for instance 'wr_store_frame_tog_reg' of module 'FDRE'.
+Resolution: Check your design sources near the definition of the module or any related 'include files, looking for duplicate definitions with different values.
+WARNING: [Synth 37-28] Duplicate attribute 'INIT' found for instance 'wr_tran_frame_delay_reg' of module 'FDRE'.
+Resolution: Check your design sources near the definition of the module or any related 'include files, looking for duplicate definitions with different values.
+WARNING: [Synth 37-28] Duplicate attribute 'INIT' found for instance 'wr_txfer_tog_delay_reg' of module 'FDRE'.
+Resolution: Check your design sources near the definition of the module or any related 'include files, looking for duplicate definitions with different values.
+WARNING: [Synth 37-28] Duplicate attribute 'INIT' found for instance 'rd_tran_frame_tog_reg' of module 'FDRE'.
+Resolution: Check your design sources near the definition of the module or any related 'include files, looking for duplicate definitions with different values.
+WARNING: [Synth 37-28] Duplicate attribute 'INIT' found for instance 'rd_txfer_tog_reg' of module 'FDRE'.
+Resolution: Check your design sources near the definition of the module or any related 'include files, looking for duplicate definitions with different values.
+WARNING: [Synth 37-28] Duplicate attribute 'INIT' found for instance 'frame_in_fifo_valid_tog_reg' of module 'FDRE'.
+Resolution: Check your design sources near the definition of the module or any related 'include files, looking for duplicate definitions with different values.
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2454.688 ; gain = 0.000 ; free physical = 574 ; free virtual = 5580
+INFO: [Netlist 29-17] Analyzing 59 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2454.688 ; gain = 0.000 ; free physical = 504 ; free virtual = 5524
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 19 instances were transformed.
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS(x2)): 1 instance 
+  RAM64X1D => RAM64X1D (RAMD64E(x2)): 18 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+122 Infos, 22 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:51 ; elapsed = 00:02:01 . Memory (MB): peak = 2454.688 ; gain = 118.754 ; free physical = 640 ; free virtual = 5661
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.runs/synth_1/tri_mode_ethernet_mac_0_example_design.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file tri_mode_ethernet_mac_0_example_design_utilization_synth.rpt -pb tri_mode_ethernet_mac_0_example_design_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Jul 14 13:23:12 2021...

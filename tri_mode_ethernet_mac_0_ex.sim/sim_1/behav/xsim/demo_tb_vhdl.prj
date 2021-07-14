@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../tri_mode_ethernet_mac_0_ex.ip_user_files/ip/tri_mode_ethernet_mac_0/synth/tri_mode_ethernet_mac_0_axi4_lite_ipif_top.vhd" \
+"../../../../../../../Documents/Pruebas_artix/sfp_test_1/sfp_test_1.srcs/sources_1/imports/i2c.vhd" \
+"../../../../../../../Documents/Pruebas_artix/sfp_test_1/sfp_test_1.srcs/sources_1/imports/si5324_init.vhd" \
+
+# Do not sort compile order
+nosort

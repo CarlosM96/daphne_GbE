@@ -1,0 +1,160 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: /home/daphnelme/Xilinx/Vivado/2020.1/bin/unwrapped/lnx64.o/xelab -wto 1bb8c60188c54130a9fab9f17c717bc5 --incr --debug typical --relax --mt 8 -L xbip_utils_v3_0_10 -L xbip_pipe_v3_0_6 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_16 -L axi_lite_ipif_v3_0_4 -L tri_mode_ethernet_mac_v9_0_16 -L xil_defaultlib -L gig_ethernet_pcs_pma_v16_2_0 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot demo_tb_behav xil_defaultlib.demo_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'speed_is_10_100' is not connected on this instance [/home/daphnelme/Desktop/DAPHNE_SGMII/tri_mode_ethernet_mac_0_ex/imports/tri_mode_ethernet_mac_0_example_design.v:408]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xpm.vcomponents
+Compiling package gig_ethernet_pcs_pma_v16_2_0.management_pack
+Compiling package gig_ethernet_pcs_pma_v16_2_0.auto_neg_pack
+Compiling package gig_ethernet_pcs_pma_v16_2_0.tx_pack
+Compiling package gig_ethernet_pcs_pma_v16_2_0.synchronise_pack
+Compiling package gig_ethernet_pcs_pma_v16_2_0.rx_pack
+Compiling package gig_ethernet_pcs_pma_v16_2_0.tbi_pack
+Compiling package gig_ethernet_pcs_pma_v16_2_0.sync_block_pack
+Compiling package gig_ethernet_pcs_pma_v16_2_0.qsgmii_rx_elastic_buffer_pack
+Compiling package gig_ethernet_pcs_pma_v16_2_0.ptp_pack
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package axi_lite_ipif_v3_0_4.ipif_pkg
+Compiling package synopsys.attributes
+Compiling package ieee.std_logic_misc
+Compiling package tri_mode_ethernet_mac_v9_0_16.tx_pack
+Compiling package tri_mode_ethernet_mac_v9_0_16.common_pack
+Compiling package tri_mode_ethernet_mac_v9_0_16.ptp_pack
+Compiling package tri_mode_ethernet_mac_v9_0_16.rx_pack
+Compiling package tri_mode_ethernet_mac_v9_0_16.ethernet_statistics_pack
+Compiling module xil_defaultlib.tri_mode_ethernet_mac_0_frame_ty...
+Compiling module unisims_ver.IBUFDS
+Compiling module unisims_ver.MMCME2_ADV(BANDWIDTH="HIGH",CLKF...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module unisims_ver.OBUFDS
+Compiling module unisims_ver.FDPE_default
+Compiling module unisims_ver.FDP
+Compiling module xil_defaultlib.gig_ethernet_pcs_pma_0_reset_syn...
+Compiling module unisims_ver.FDRE_default
+Compiling module unisims_ver.FD
+Compiling module xil_defaultlib.gig_ethernet_pcs_pma_0_sync_bloc...
+Compiling module xil_defaultlib.gig_ethernet_pcs_pma_0_johnson_c...
+Compiling module xil_defaultlib.gig_ethernet_pcs_pma_0_clk_gen
+Compiling module xil_defaultlib.gig_ethernet_pcs_pma_0_tx_rate_a...
+Compiling module xil_defaultlib.gig_ethernet_pcs_pma_0_rx_rate_a...
+Compiling module xil_defaultlib.gig_ethernet_pcs_pma_0_sgmii_ada...
+Compiling architecture fdpe_v of entity unisim.FDPE [fdpe_default]
+Compiling architecture fdp_v of entity unisim.FDP [fdp_default]
+Compiling architecture rtl of entity gig_ethernet_pcs_pma_v16_2_0.reset_sync_block [reset_sync_block_default]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(0,15)\]
+Compiling architecture srl16_v of entity unisim.SRL16 [\SRL16(0,15)\]
+Compiling architecture rtl of entity gig_ethernet_pcs_pma_v16_2_0.TX [tx_default]
+Compiling architecture rtl of entity gig_ethernet_pcs_pma_v16_2_0.SYNCHRONISE [synchronise_default]
+Compiling architecture rtl of entity gig_ethernet_pcs_pma_v16_2_0.RX [\RX(c_family="artix7")(1,6)\]
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture fd_v of entity unisim.FD [fd_default]
+Compiling architecture structural of entity gig_ethernet_pcs_pma_v16_2_0.sync_block [sync_block_default]
+Compiling architecture rtl of entity gig_ethernet_pcs_pma_v16_2_0.GPCS_PMA_GEN [\GPCS_PMA_GEN(c_family="artix7",...]
+Compiling architecture xilinx of entity gig_ethernet_pcs_pma_v16_2_0.gig_ethernet_pcs_pma_v16_2_0 [\gig_ethernet_pcs_pma_v16_2_0(c_...]
+Compiling module xil_defaultlib.gig_ethernet_pcs_pma_0_reset_wtd...
+Compiling module unisims_ver.GTPE2_CHANNEL(ALIGN_COMMA_WORD=2...
+Compiling module xil_defaultlib.gig_ethernet_pcs_pma_0_gtwizard_...
+Compiling module unisims_ver.FDPE(INIT=1'b0)
+Compiling module unisims_ver.FDP(INIT=1'b0)
+Compiling module xil_defaultlib.gig_ethernet_pcs_pma_0_reset_syn...
+Compiling module xil_defaultlib.gig_ethernet_pcs_pma_0_gtwizard_...
+Compiling module xil_defaultlib.gig_ethernet_pcs_pma_0_GTWIZARD_...
+Compiling module xil_defaultlib.gig_ethernet_pcs_pma_0_GTWIZARD_...
+Compiling module xil_defaultlib.gig_ethernet_pcs_pma_0_TX_STARTU...
+Compiling module xil_defaultlib.gig_ethernet_pcs_pma_0_RX_STARTU...
+Compiling module xil_defaultlib.gig_ethernet_pcs_pma_0_GTWIZARD_...
+Compiling module xil_defaultlib.gig_ethernet_pcs_pma_0_GTWIZARD
+Compiling module unisims_ver.FD_2
+Compiling module xil_defaultlib.gig_ethernet_pcs_pma_0_sync_bloc...
+Compiling module xil_defaultlib.gig_ethernet_pcs_pma_0_rx_elasti...
+Compiling module xil_defaultlib.gig_ethernet_pcs_pma_0_transceiv...
+Compiling module xil_defaultlib.gig_ethernet_pcs_pma_0_block
+Compiling module unisims_ver.IBUFDS_GTE2
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=16.0,...
+Compiling module xil_defaultlib.gig_ethernet_pcs_pma_0_clocking
+Compiling module xil_defaultlib.gig_ethernet_pcs_pma_0_resets
+Compiling module xil_defaultlib.gig_ethernet_pcs_pma_0_common_re...
+Compiling module unisims_ver.GTPE2_COMMON(BIAS_CFG=64'b010100...
+Compiling module xil_defaultlib.gig_ethernet_pcs_pma_0_gt_common
+Compiling module xil_defaultlib.gig_ethernet_pcs_pma_0_support
+Compiling module xil_defaultlib.gig_ethernet_pcs_pma_0
+Compiling module xil_defaultlib.tri_mode_ethernet_mac_0_reset_sy...
+Compiling module xil_defaultlib.tri_mode_ethernet_mac_0_example_...
+Compiling module xil_defaultlib.tri_mode_ethernet_mac_0_sync_blo...
+Compiling module xil_defaultlib.tri_mode_ethernet_mac_0_axi_lite...
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.address_decoder [\address_decoder(c_bus_awidth=11...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.slave_attachment [\slave_attachment(c_ard_addr_ran...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.axi_lite_ipif [\axi_lite_ipif(c_s_axi_min_size=...]
+Compiling architecture rtl of entity xil_defaultlib.tri_mode_ethernet_mac_0_axi4_lite_ipif_top [tri_mode_ethernet_mac_0_axi4_lit...]
+Compiling module xil_defaultlib.tri_mode_ethernet_mac_0_axi4_lit...
+Compiling module xil_defaultlib.tri_mode_ethernet_mac_0_vector_d...
+Compiling architecture rtl of entity tri_mode_ethernet_mac_v9_0_16.tri_mode_ethernet_mac_v9_0_16_sync_reset [tri_mode_ethernet_mac_v9_0_16_sy...]
+Compiling architecture rtl of entity tri_mode_ethernet_mac_v9_0_16.tri_mode_ethernet_mac_v9_0_16_sync_reset [\tri_mode_ethernet_mac_v9_0_16_s...]
+Compiling module unisims_ver.LUT4
+Compiling architecture structural of entity tri_mode_ethernet_mac_v9_0_16.tri_mode_ethernet_mac_v9_0_16_sync_block [tri_mode_ethernet_mac_v9_0_16_sy...]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture fdce_v of entity unisim.FDCE [fdce_default]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2(init="1000")(0,3)\]
+Compiling architecture vcc_v of entity unisim.VCC [vcc_default]
+Compiling architecture gnd_v of entity unisim.GND [gnd_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture schematic of entity tri_mode_ethernet_mac_v9_0_16.CC8CE [cc8ce_default]
+Compiling architecture schematic of entity tri_mode_ethernet_mac_v9_0_16.CC2CE [cc2ce_default]
+Compiling architecture rtl of entity tri_mode_ethernet_mac_v9_0_16.CRC_64_32 [crc_64_32_default]
+Compiling architecture rtl of entity tri_mode_ethernet_mac_v9_0_16.CRC32_8 [crc32_8_default]
+Compiling architecture rtl of entity tri_mode_ethernet_mac_v9_0_16.TX_STATE_MACH [\TX_STATE_MACH(c_half_duplex=fal...]
+Compiling architecture rtl of entity tri_mode_ethernet_mac_v9_0_16.tri_mode_ethernet_mac_v9_0_16_tx [\tri_mode_ethernet_mac_v9_0_16_t...]
+Compiling architecture rtl of entity tri_mode_ethernet_mac_v9_0_16.STATE_MACHINES [state_machines_default]
+Compiling architecture rtl of entity tri_mode_ethernet_mac_v9_0_16.DECODE_FRAME [decode_frame_default]
+Compiling architecture rtl of entity tri_mode_ethernet_mac_v9_0_16.PARAM_CHECK [param_check_default]
+Compiling architecture rtl of entity tri_mode_ethernet_mac_v9_0_16.tri_mode_ethernet_mac_v9_0_16_rx [\tri_mode_ethernet_mac_v9_0_16_r...]
+Compiling architecture ram64x1d_v of entity unisim.RAM64X1D [ram64x1d_default]
+Compiling architecture rtl of entity tri_mode_ethernet_mac_v9_0_16.increment_controller [increment_controller_default]
+Compiling architecture rtl of entity tri_mode_ethernet_mac_v9_0_16.pre_accumulator [pre_accumulator_default]
+Compiling architecture rtl of entity tri_mode_ethernet_mac_v9_0_16.tri_mode_ethernet_mac_v9_0_16_statistics_core [\tri_mode_ethernet_mac_v9_0_16_s...]
+Compiling module unisims_ver.RAM64X1D
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3(INIT=8'b0100001)
+Compiling module unisims_ver.LUT3(INIT=8'b0100)
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.LUT3(INIT=8'b0110)
+Compiling module unisims_ver.SRL16E_default
+Compiling module xil_defaultlib.tri_mode_ethernet_mac_0_block
+Compiling module xil_defaultlib.tri_mode_ethernet_mac_0
+Compiling module xil_defaultlib.tri_mode_ethernet_mac_0_support
+Compiling module xil_defaultlib.tri_mode_ethernet_mac_0_bram_tdp...
+Compiling module xil_defaultlib.tri_mode_ethernet_mac_0_tx_clien...
+Compiling module xil_defaultlib.tri_mode_ethernet_mac_0_rx_clien...
+Compiling module xil_defaultlib.tri_mode_ethernet_mac_0_ten_100_...
+Compiling module xil_defaultlib.tri_mode_ethernet_mac_0_fifo_blo...
+Compiling module unisims_ver.LUT6
+Compiling module xil_defaultlib.tri_mode_ethernet_mac_0_axi_pat_...
+Compiling module xil_defaultlib.tri_mode_ethernet_mac_0_axi_pat_...
+Compiling module xil_defaultlib.tri_mode_ethernet_mac_0_axi_mux
+Compiling module xil_defaultlib.tri_mode_ethernet_mac_0_axi_pipe...
+Compiling module xil_defaultlib.tri_mode_ethernet_mac_0_address_...
+Compiling module xil_defaultlib.tri_mode_ethernet_mac_0_basic_pa...
+Compiling architecture rtl of entity xil_defaultlib.si5324_init [si5324_init_default]
+Compiling architecture structural of entity xil_defaultlib.i2c_core [i2c_core_default]
+Compiling architecture structural of entity xil_defaultlib.simple_i2c [simple_i2c_default]
+Compiling module xil_defaultlib.tri_mode_ethernet_mac_0_example_...
+Compiling module xil_defaultlib.demo_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot demo_tb_behav

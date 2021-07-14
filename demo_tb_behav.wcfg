@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="demo_tb_func_impl.wdb" id="1">
+         <top_modules>
+            <top_module name="demo_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="5251217471fs"></ZoomStartTime>
+      <ZoomEndTime time="5681319605fs"></ZoomEndTime>
+      <Cursor1Time time="5609635916fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="182"></NameColumnWidth>
+      <ValueColumnWidth column_width="76"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="49" />
+   <wvobject type="logic" fp_name="/demo_tb/gtx_clk">
+      <obj_property name="ElementShortName">gtx_clk</obj_property>
+      <obj_property name="ObjectShortName">gtx_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/demo_tb/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/demo_tb/demo_mode_error">
+      <obj_property name="ElementShortName">demo_mode_error</obj_property>
+      <obj_property name="ObjectShortName">demo_mode_error</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/demo_tb/gmii_tx_en">
+      <obj_property name="ElementShortName">gmii_tx_en</obj_property>
+      <obj_property name="ObjectShortName">gmii_tx_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/demo_tb/gmii_tx_er">
+      <obj_property name="ElementShortName">gmii_tx_er</obj_property>
+      <obj_property name="ObjectShortName">gmii_tx_er</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/demo_tb/gmii_txd">
+      <obj_property name="ElementShortName">gmii_txd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">gmii_txd[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/demo_tb/gmii_rx_dv">
+      <obj_property name="ElementShortName">gmii_rx_dv</obj_property>
+      <obj_property name="ObjectShortName">gmii_rx_dv</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/demo_tb/gmii_rx_er">
+      <obj_property name="ElementShortName">gmii_rx_er</obj_property>
+      <obj_property name="ObjectShortName">gmii_rx_er</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/demo_tb/gmii_rxd">
+      <obj_property name="ElementShortName">gmii_rxd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">gmii_rxd[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/demo_tb/tx_monitor_finished_1G">
+      <obj_property name="ElementShortName">tx_monitor_finished_1G</obj_property>
+      <obj_property name="ObjectShortName">tx_monitor_finished_1G</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/demo_tb/management_config_finished">
+      <obj_property name="ElementShortName">management_config_finished</obj_property>
+      <obj_property name="ObjectShortName">management_config_finished</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/demo_tb/phy_speed">
+      <obj_property name="ElementShortName">phy_speed[1:0]</obj_property>
+      <obj_property name="ObjectShortName">phy_speed[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/demo_tb/mac_speed">
+      <obj_property name="ElementShortName">mac_speed[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mac_speed[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/demo_tb/update_speed">
+      <obj_property name="ElementShortName">update_speed</obj_property>
+      <obj_property name="ObjectShortName">update_speed</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/demo_tb/gmii_rxd_dut">
+      <obj_property name="ElementShortName">gmii_rxd_dut[7:0]</obj_property>
+      <obj_property name="ObjectShortName">gmii_rxd_dut[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/demo_tb/gmii_rx_dv_dut">
+      <obj_property name="ElementShortName">gmii_rx_dv_dut</obj_property>
+      <obj_property name="ObjectShortName">gmii_rx_dv_dut</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/demo_tb/gmii_rx_er_dut">
+      <obj_property name="ElementShortName">gmii_rx_er_dut</obj_property>
+      <obj_property name="ObjectShortName">gmii_rx_er_dut</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/demo_tb/gen_tx_data">
+      <obj_property name="ElementShortName">gen_tx_data</obj_property>
+      <obj_property name="ObjectShortName">gen_tx_data</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/demo_tb/check_tx_data">
+      <obj_property name="ElementShortName">check_tx_data</obj_property>
+      <obj_property name="ObjectShortName">check_tx_data</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/demo_tb/config_bist">
+      <obj_property name="ElementShortName">config_bist</obj_property>
+      <obj_property name="ObjectShortName">config_bist</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/demo_tb/frame_error">
+      <obj_property name="ElementShortName">frame_error</obj_property>
+      <obj_property name="ObjectShortName">frame_error</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/demo_tb/bist_mode_error">
+      <obj_property name="ElementShortName">bist_mode_error</obj_property>
+      <obj_property name="ObjectShortName">bist_mode_error</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/demo_tb/serial_response">
+      <obj_property name="ElementShortName">serial_response</obj_property>
+      <obj_property name="ObjectShortName">serial_response</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/demo_tb/linkup_sig">
+      <obj_property name="ElementShortName">linkup_sig</obj_property>
+      <obj_property name="ObjectShortName">linkup_sig</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/demo_tb/clk_in_p">
+      <obj_property name="ElementShortName">clk_in_p</obj_property>
+      <obj_property name="ObjectShortName">clk_in_p</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/demo_tb/clk_in_n">
+      <obj_property name="ElementShortName">clk_in_n</obj_property>
+      <obj_property name="ObjectShortName">clk_in_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/demo_tb/gtrefclk_p">
+      <obj_property name="ElementShortName">gtrefclk_p</obj_property>
+      <obj_property name="ObjectShortName">gtrefclk_p</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/demo_tb/gtrefclk_n">
+      <obj_property name="ElementShortName">gtrefclk_n</obj_property>
+      <obj_property name="ObjectShortName">gtrefclk_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/demo_tb/txp">
+      <obj_property name="ElementShortName">txp</obj_property>
+      <obj_property name="ObjectShortName">txp</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/demo_tb/txn">
+      <obj_property name="ElementShortName">txn</obj_property>
+      <obj_property name="ObjectShortName">txn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/demo_tb/rxp">
+      <obj_property name="ElementShortName">rxp</obj_property>
+      <obj_property name="ObjectShortName">rxp</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/demo_tb/rxn">
+      <obj_property name="ElementShortName">rxn</obj_property>
+      <obj_property name="ObjectShortName">rxn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/demo_tb/txp_int">
+      <obj_property name="ElementShortName">txp_int</obj_property>
+      <obj_property name="ObjectShortName">txp_int</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/demo_tb/txn_int">
+      <obj_property name="ElementShortName">txn_int</obj_property>
+      <obj_property name="ObjectShortName">txn_int</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/demo_tb/rxp_int">
+      <obj_property name="ElementShortName">rxp_int</obj_property>
+      <obj_property name="ObjectShortName">rxp_int</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/demo_tb/rxn_int">
+      <obj_property name="ElementShortName">rxn_int</obj_property>
+      <obj_property name="ObjectShortName">rxn_int</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/demo_tb/TB_MODE">
+      <obj_property name="ElementShortName">TB_MODE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TB_MODE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/demo_tb/dly">
+      <obj_property name="ElementShortName">dly[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dly[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/demo_tb/gtx_period">
+      <obj_property name="ElementShortName">gtx_period[31:0]</obj_property>
+      <obj_property name="ObjectShortName">gtx_period[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/demo_tb/dut/linkup">
+      <obj_property name="ElementShortName">linkup</obj_property>
+      <obj_property name="ObjectShortName">linkup</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/demo_tb/dut/synchronization_done">
+      <obj_property name="ElementShortName">synchronization_done</obj_property>
+      <obj_property name="ObjectShortName">synchronization_done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/demo_tb/dut/pcs_pma/userclk2_out">
+      <obj_property name="ElementShortName">userclk2_out</obj_property>
+      <obj_property name="ObjectShortName">userclk2_out</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/demo_tb/dut/pcs_pma/gmii_txd">
+      <obj_property name="ElementShortName">gmii_txd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">gmii_txd[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/demo_tb/dut/pcs_pma/gmii_rxd">
+      <obj_property name="ElementShortName">gmii_rxd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">gmii_rxd[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/demo_tb/dut/pcs_pma/status_vector">
+      <obj_property name="ElementShortName">status_vector[15:0]</obj_property>
+      <obj_property name="ObjectShortName">status_vector[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/demo_tb/dut/trimac_fifo_block/trimac_sup_block/tx_axis_mac_tready">
+      <obj_property name="ElementShortName">tx_axis_mac_tready</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_mac_tready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/demo_tb/dut/USER_CLK_P">
+      <obj_property name="ElementShortName">USER_CLK_P</obj_property>
+      <obj_property name="ObjectShortName">USER_CLK_P</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/demo_tb/dut/USER_CLK_N">
+      <obj_property name="ElementShortName">USER_CLK_N</obj_property>
+      <obj_property name="ObjectShortName">USER_CLK_N</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/demo_tb/dut/pcs_pma/resetdone">
+      <obj_property name="ElementShortName">resetdone</obj_property>
+      <obj_property name="ObjectShortName">resetdone</obj_property>
+   </wvobject>
+</wave_config>

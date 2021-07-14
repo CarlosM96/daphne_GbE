@@ -1,0 +1,79 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+** Note: Resetting core...
+** Note: Timing checks are valid
+** Note: Programming MAC speed
+** Note: Reseting MAC RX
+** Note: Reseting MAC TX
+** Note: Disabling Flow control....
+** Note: Configuring unicast address(low word)....
+** Note: Configuring unicast address(high word)....
+** Note: Setting core to promiscuous mode....
+** ERROR: Simulation Running Forever
+Frame PASSED.  DA/SA swapped, Frame size =         66
+Frame PASSED.  DA/SA swapped, Frame size =         67
+Frame PASSED.  DA/SA swapped, Frame size =         68
+Frame PASSED.  DA/SA swapped, Frame size =         69
+Frame PASSED.  DA/SA swapped, Frame size =         70
+Frame PASSED.  DA/SA swapped, Frame size =         71
+Frame PASSED.  DA/SA swapped, Frame size =         72
+Frame PASSED.  DA/SA swapped, Frame size =         73
+Frame PASSED.  DA/SA swapped, Frame size =         74
+Frame PASSED.  DA/SA swapped, Frame size =         75
+Frame PASSED.  DA/SA swapped, Frame size =         76
+Frame PASSED.  DA/SA swapped, Frame size =         77
+Frame PASSED.  DA/SA swapped, Frame size =         78
+Frame PASSED.  DA/SA swapped, Frame size =         79
+Frame PASSED.  DA/SA swapped, Frame size =         80
+Frame PASSED.  DA/SA swapped, Frame size =         81
+Frame PASSED.  DA/SA swapped, Frame size =         82
+Frame PASSED.  DA/SA swapped, Frame size =         83
+Frame PASSED.  DA/SA swapped, Frame size =         84
+Frame PASSED.  DA/SA swapped, Frame size =         85
+Frame PASSED.  DA/SA swapped, Frame size =         86
+Frame PASSED.  DA/SA swapped, Frame size =         87
+Frame PASSED.  DA/SA swapped, Frame size =         88
+Frame PASSED.  DA/SA swapped, Frame size =         89
+Frame PASSED.  DA/SA swapped, Frame size =         90
+Frame PASSED.  DA/SA swapped, Frame size =         91
+Frame PASSED.  DA/SA swapped, Frame size =         92
+Frame PASSED.  DA/SA swapped, Frame size =         93
+Frame PASSED.  DA/SA swapped, Frame size =         94
+Frame PASSED.  DA/SA swapped, Frame size =         95
+Frame PASSED.  DA/SA swapped, Frame size =         96
+Frame PASSED.  DA/SA swapped, Frame size =         97
+Frame PASSED.  DA/SA swapped, Frame size =         98
+Frame PASSED.  DA/SA swapped, Frame size =         99
+Frame PASSED.  DA/SA swapped, Frame size =        100
+Frame PASSED.  DA/SA swapped, Frame size =        101
+Frame PASSED.  DA/SA swapped, Frame size =        102
+Frame PASSED.  DA/SA swapped, Frame size =        103
+Frame PASSED.  DA/SA swapped, Frame size =        104
+Frame PASSED.  DA/SA swapped, Frame size =        105
+Frame PASSED.  DA/SA swapped, Frame size =        106
+Frame PASSED.  DA/SA swapped, Frame size =        107
+Frame PASSED.  DA/SA swapped, Frame size =        108
+Frame PASSED.  DA/SA swapped, Frame size =        109
+Frame PASSED.  DA/SA swapped, Frame size =        110
+Frame PASSED.  DA/SA swapped, Frame size =        111
+Frame PASSED.  DA/SA swapped, Frame size =        112
+Frame PASSED.  DA/SA swapped, Frame size =        113
+Frame PASSED.  DA/SA swapped, Frame size =        114
+Frame PASSED.  DA/SA swapped, Frame size =        115
+Frame PASSED.  DA/SA swapped, Frame size =        116
+Frame PASSED.  DA/SA swapped, Frame size =        117
+Frame PASSED.  DA/SA swapped, Frame size =        118
+Frame PASSED.  DA/SA swapped, Frame size =        119
+Frame PASSED.  DA/SA swapped, Frame size =        120
+Frame PASSED.  DA/SA swapped, Frame size =        121
+Frame PASSED.  DA/SA swapped, Frame size =        122
+Frame PASSED.  DA/SA swapped, Frame size =        123
+Frame PASSED.  DA/SA swapped, Frame size =        124
+Frame PASSED.  DA/SA swapped, Frame size =        125
+Frame PASSED.  DA/SA swapped, Frame size =        126
+Frame PASSED.  DA/SA swapped, Frame size =        127
+Frame PASSED.  DA/SA swapped, Frame size =        128
+Frame PASSED.  DA/SA swapped, Frame size =        129
+Frame PASSED.  DA/SA swapped, Frame size =        130
+Frame PASSED.  DA/SA swapped, Frame size =        131
+Frame PASSED.  DA/SA swapped, Frame size =        132
